@@ -239,6 +239,27 @@ img {
   padding-top: 12px;
   display: block;
   color: #fff;
+  transition: color 0.3s;
+}
+
+.popup-btn:hover span {
+  color: #0093a1;
+}
+
+.popup-btn path {
+  transition: fill 0.3s;
+}
+
+.popup-btn circle {
+  transition: stroke 0.3s;
+}
+
+.popup-btn:hover path {
+  fill: #b9c400;
+}
+
+.popup-btn:hover circle {
+  stroke: #b9c400;
 }
 
 .info__btn {
@@ -497,4 +518,87 @@ img {
   font-size: 32px;
   line-height: 39px;
   color: #fff;
+}
+
+.footer {
+  background: #262c27;
+  padding: 100px 0 80px;
+  color: #fff;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  margin-bottom: 27px;
+}
+
+.footer__form {
+  width: 500px;
+}
+
+.footer__form-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 57px;
+  color: #fff;
+}
+
+.footer__form-input::placeholder {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 0.2;
+}
+
+.footer__form-btn {
+  background-color: #fff;
+  padding: 10px 66px;
+  border: none;
+  margin-bottom: 110px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "Comfortaa", cursive;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer__social-title {
+  font-weight: 700;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.footer__gallery {
+  display: grid;
+  gap: 52px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+}
+
+.footer__menu-list {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  align-self: flex-start;
+}
+
+.footer__logo path {
+  transition: fill 0.3s;
+}
+
+.footer__logo:hover path {
+  fill: #0093a1;
 }
